@@ -34,13 +34,11 @@ let logNumber: (i: number) => void = (i: number) => {
 
 // When you use annotations
 // 1) Function that return any type
-
 let json = '{"x" : 10, "y" : 20}';
 let coordinates: { x: number; y: number } = JSON.parse(json); // {x: 10, y: 20}
 console.log(coordinates);
 
 // 2) When we declare a variable on one line and initialize later
-
 let words = ["red", "green", "blue"];
 let foundWord: boolean | undefined;
 
